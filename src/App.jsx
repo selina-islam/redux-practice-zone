@@ -1,12 +1,12 @@
 
 import './App.css'
-import CounterApp from './components/CounterApp'
+import LikeDislike from './components/LikeDislike'
 
 function App() {
 
   return (
   <>
-  <CounterApp/>
+ <LikeDislike/>
   </>
   )
 }
