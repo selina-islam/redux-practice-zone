@@ -1,13 +1,13 @@
 
 import './App.css'
-import LikeDislike from './components/LikeDislike'
+import Todos from './components/Todos'
 
 function App() {
 
   return (
-  <>
- <LikeDislike/>
-  </>
+  <div>
+  <Todos/>
+  </div>
   )
 }
 
