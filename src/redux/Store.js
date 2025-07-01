@@ -4,6 +4,7 @@ import likeDislikekeReducer from './features/LikeDisLike/likeDislikeSlice.js'
 import todosReducer from './features/todos/todos.js'
 import preferencesReducer from './features/preferences/preferences.js'
 import MiddlewareReducer from './features/MiddleWareTodo/MiddleTodoSlice.js'
+import weatherReducer from './features/weather/weatherSlice.js'
 import { thunk } from "redux-thunk";
 import { createLogger } from "redux-logger";
 const logger= createLogger()
@@ -16,6 +17,7 @@ const store=configureStore({
         todos: todosReducer,
         preferences: preferencesReducer,
         middlwaretodos: MiddlewareReducer,
+        weather: weatherReducer,
     },
     middleware:(getDefaultMiddleware)=> getDefaultMiddleware().concat(logger)
 })

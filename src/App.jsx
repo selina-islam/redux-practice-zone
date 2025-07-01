@@ -1,12 +1,12 @@
 
 import './App.css'
-import MiddlewareTodos from './components/MiddlewareTodos'
+import Weather from './components/Weather'
 
 function App() {
 
   return (
   <div>
-    <MiddlewareTodos/>
+   <Weather/>
   </div>
   )
 }
