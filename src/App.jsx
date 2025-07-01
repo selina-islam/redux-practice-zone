@@ -1,12 +1,12 @@
 
 import './App.css'
-import Todos from './components/Todos'
+import MiddlewareTodos from './components/MiddlewareTodos'
 
 function App() {
 
   return (
   <div>
-  <Todos/>
+    <MiddlewareTodos/>
   </div>
   )
 }
